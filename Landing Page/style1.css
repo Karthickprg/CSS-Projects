@@ -1,0 +1,100 @@
+
+
+
+body{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.landing{
+    background: url(/Form/Images/bc2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: aliceblue;
+
+}
+header a{
+    text-decoration: none;
+    color: aliceblue;
+
+}
+header{
+    display: flex;
+    padding: 2em;
+
+}
+#logo{
+    flex: 3;
+    font-size: 2em;
+    font-weight: bolder;
+    
+}
+nav{
+    flex:1 ;
+    display: flex;
+}
+nav a{
+    flex: 1;
+     
+}
+nav a:hover{
+    color: chartreuse;
+}
+.menus{
+    padding: 1em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(265px,1fr));
+    color: aliceblue;
+    background:linear-gradient(to right,rgb(32, 29, 29),rgb(204, 144, 144));
+
+}
+#menuheading{
+    padding: 1em;
+    background:linear-gradient(to right,rgb(32, 29, 29),rgb(204, 144, 144));
+    margin: auto;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+.mrnus th{
+    font-size: 1em;
+}
+table{
+    width: 100%;
+    padding: 1em;
+}
+.menus tr{
+    display: flex;
+    justify-content: center;
+    margin-top: .8em;
+}
+.menus td:nth-child(1){
+    flex: 1;
+    justify-self: left;
+}
+.menus td:nth-child(2){
+    justify-self: right;
+}
+.menus{
+    grid-row: span 2;
+}
+address{
+    padding: 1em;
+    background:linear-gradient(to right,rgb(32, 29, 29),rgb(204, 144, 144));
+
+}
+.contact h5{
+    
+    background:linear-gradient(to right,rgb(32, 29, 29),rgb(204, 144, 144));
+}
+h5{
+    margin: 0;
+    padding: 2em;
+}
+.last{
+    color: aliceblue;
+   
+}
+
+    
