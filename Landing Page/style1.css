@@ -7,7 +7,7 @@ body{
     
 }
 .landing{
-    background: url(/Form/Images/bc2.jpg);
+    background: url(bc2.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
